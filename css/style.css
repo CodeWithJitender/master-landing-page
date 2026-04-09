@@ -25,18 +25,24 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--primary-accent);
   color: var(--text-light);
   border: none;
-  border-radius: 8px; /* Rounded corners */
-  padding: 12px 28px;
-  transition: all 0.3s ease;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-family: 'Google Sans Flex', sans-serif;
+  font-size: 16px;
   font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
 }
 
 .btn-global:hover {
   background-color: #b51046; /* darker pink */
   color: var(--text-light);
   transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(215, 20, 86, 0.3);
 }
 
 .btn-global.btn-white {
